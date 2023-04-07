@@ -29,11 +29,17 @@ var celular = {
     },
 
     aumentarVolume(){
-        celular.volume ++;
+        if (celular.situacao == "on") {
+            celular.volume ++;
+        }
+        console.log("O celular precisa estar ligado para aumentar ou baixar o volume");
     },
-
+    
     baixarVolume() {
-        celular.volume --;
+        if (celular.situacao == "on") {
+            celular.volume --;
+        }
+        console.log("O celular precisa estar ligado para aumentar ou baixar o volume");
     },
 
     desligar() {
@@ -58,3 +64,5 @@ celular.baixarVolume();
 console.log("Novo volume: " + celular.volume);
 celular.desligar();
 console.log("Nova situação: " + celular.situacao);
+console.log();
+celular.aumentarVolume();
