@@ -1,6 +1,6 @@
 # poo-js-01
 
-Este repositório faz parte do portfólio de aprendizado do curso de pós graduação em desenvolvimento fullstack da PUC-RS.
+Este repositório faz parte do portfólio de aprendizado do curso de pós graduação em desenvolvimento fullstack da PUC-RS, da disciplina de Programação Orientada a Objetos.
 
 <a href="dispositivo.js">dispositivo.js: </a> 
 Programa que cria um objeto chamado celular que tem como atributos o fabricante, modelo, situação e volume. 
