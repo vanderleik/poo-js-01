@@ -23,7 +23,7 @@ var celular = {
     volume: 0,
     
     ligar() {
-        if (celular.situacao === "off") {
+        if (celular.situacao == "off") {
             celular.situacao = "on";
         }
     },
