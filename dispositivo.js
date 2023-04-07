@@ -1,50 +1,38 @@
 /**
- * Crição de um objeto chamado celular que tem como atributos o fabricante, modelo, situação e volume. 
- * Possui ainda as funções de ligar, desligar, aumentar volume e baixar volume.
+ * Programa que cria um objeto chamado celular que tem como atributos o fabricante, modelo, situação e volume. 
+ Possui ainda as funções de ligar, desligar, aumentar volume e baixar volume.
  * 
- * ******************
- * celular          *
- * ******************
- * fabricante       *
- * modelo           *
- * situacao         *
- * ******************
- * ligar()          *
- * desligar()       *
- * aumentarVolume() *
- * baixarVolume()   *
- * ****************** 
  */
 
 var celular = {
     fabricante: "Samsung",
     modelo: "A31",
-    situacao: "off",
+    situacao: "Desligado",
     volume: 0,
     
     ligar() {
-        if (celular.situacao == "off") {
-            celular.situacao = "on";
+        if (celular.situacao == "Desligado") {
+            celular.situacao = "Ligado";
         }
     },
 
     aumentarVolume(){
-        if (celular.situacao == "on") {
+        if (celular.situacao == "Ligado") {
             celular.volume ++;
         }
         console.log("O celular precisa estar ligado para aumentar ou baixar o volume");
     },
     
     baixarVolume() {
-        if (celular.situacao == "on") {
+        if (celular.situacao == "Ligado") {
             celular.volume --;
         }
         console.log("O celular precisa estar ligado para aumentar ou baixar o volume");
     },
 
     desligar() {
-        if (celular.situacao === "on") {
-            celular.situacao = "off";
+        if (celular.situacao === "Ligado") {
+            celular.situacao = "Desligado";
         }
     }    
 }
