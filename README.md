@@ -8,3 +8,13 @@ Programa que cria um objeto chamado celular que tem como atributos o fabricante,
  <p>
  <a href="calcula-folha-pagamento.js">calcula-folha-pagamento.js: </a>
  Programa que calcula folha de pagamento. É criada uma função que recebe os valores de um objeto e apartir desses valores efetua o cálculo retornando o valor do salário líquido desse empregado. 
+<p>
+<a href="criando-objetos.js">criando-objetos.js: </a>
+Programa que cria objetos seguindo diferentes formas:
+<ul> 
+<li>Literal;</li>
+<li>Fábrica;</li>
+<li>Construtor; (falta implementar)</li>
+<li>Protótipo; (falta implementar)</li>
+<li>Classe; (falta implementar)</li>
+</ul>
