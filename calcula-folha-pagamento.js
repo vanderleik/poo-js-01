@@ -4,12 +4,12 @@
  */
 function calculadora(salarioHora, horasContratadas, horasExtras, descontos) {
     const salarioBase = salarioHora * horasContratadas;
-    const salarioBruto = salarioBase + horasExtras;
+    const salarioBruto = salarioBase + (horasExtras * (salarioHora * 1.5));
     const salarioLiquido = salarioBruto - descontos;
     return salarioLiquido;
 }
 
-var empregado = {
+const empregado = {
     nome: "Slash",
     funcao: "Guitarrista",
     departamento: "Música",
