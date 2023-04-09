@@ -130,7 +130,7 @@ class Vinho {
     };
     
     ola() {
-        console.log("Olá, eu sou " + this.uva + ", um vinho com as seguintes características:");
+        console.log("Olá, eu sou um vinho da uva " + this.uva);        
     };
 
     calculaIdade() {
@@ -152,8 +152,34 @@ class Espumante extends Vinho {
         super(nome, safra, preco);
         this.regiao = regiao;
     };
-
+    ola() {
+        super.ola();
+        console.log("Um belo espumante!!!");
+    };
 };
 
-const espumante = new Espumante("Oremus", 2019, 70, "Vale dos Vinhedos");
+const espumante = new Espumante("Moscatel", 2019, 70, "Vale dos Vinhedos");
+console.log(espumante);
+console.log(espumante.calculaIdade());
+console.log(espumante.ola());
+console.log();
+
+const vinhoBranco = vinho1;
+vinhoBranco.uva = "Cabernet Sauvignon Blanc";
+console.log(vinhoBranco);
+console.log();
+vinhoBranco.regiao = "Chile";
+
+const vinhoRose = new Vinho("Tempranillo", 2015, 70);
+console.log("Vinho tinto:")
+console.log(vinho1);
+console.log("Vinho Branco:")
+console.log(vinhoBranco);
+console.log("Vinho Branco Espumante:")
+console.log(espumante);
+console.log("Vinho Rosé:")
+console.log(vinhoRose);
+console.log();
+delete espumante.regiao;
+console.log("Vinho Branco Espumante:")
 console.log(espumante);
