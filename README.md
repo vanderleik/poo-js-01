@@ -14,7 +14,7 @@ Programa que cria objetos seguindo diferentes formas:
 <ul> 
 <li>Literal;</li>
 <li>Fábrica;</li>
-<li>Construtor; (falta implementar)</li>
+<li>Construtor;</li>
 <li>Protótipo; (falta implementar)</li>
 <li>Classe; (falta implementar)</li>
 </ul>
