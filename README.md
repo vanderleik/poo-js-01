@@ -18,3 +18,6 @@ Programa que cria objetos seguindo diferentes formas:
 <li>Protótipo;</li>
 <li>Classe;</li>
 </ul>
+<p>
+<a href="heranca.js">heranca.js:</a>
+Exercita um pouco de herança na criação de objetos e variáveis 'static'.
