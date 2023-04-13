@@ -21,3 +21,6 @@ Programa que cria objetos seguindo diferentes formas:
 <p>
 <a href="heranca.js">heranca.js:</a>
 Exercita um pouco de herança na criação de objetos e variáveis 'static'.
+<p>
+<a href="visibilidade.js">visibilidade.js: </a>
+Programa que cria objetos explorando os conceitos de visibilidade, encapsulamento e relação entre objetos.
